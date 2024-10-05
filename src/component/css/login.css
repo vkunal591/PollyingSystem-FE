@@ -1,0 +1,108 @@
+.login {
+
+  height: max-content;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0px !important;
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/loginbg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0px !important;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.signin::before {
+  content: "";
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/loginbg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0px !important;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+
+.login .form-box{
+    width: 29%!important;
+    height: max-content!important;
+    background-color: #0000005c;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1rem;
+    top: 50%;
+    right: -5%;
+    color: white;
+    font-weight: 500;
+}
+
+
+.signin .form-box{
+  width: 29%!important;
+  height: max-content!important;
+  background-color: #0000005c;
+  border-radius: 10px 10px 10px 10px;
+  padding: 1rem;
+  top: 65%;
+  right: -5%;
+  color: white;
+  font-weight: 500;
+}
+
+.form-box div{
+    color: white;
+}
+
+.form-box h4{
+  color: white;
+  font-weight: 600;
+
+}
+
+
+
+
+
+
+/* For Tablet View */
+@media screen and (min-device-width: 268px) and (max-device-width: 1020px) {
+  .login .form-box {
+    width: 95%!important;
+    height: max-content!important;
+    background-color: #0000005c;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1rem;
+    top: 30%;
+    right: 2%;
+    color: white;
+    font-weight: 500;
+    z-index: -1;
+}
+.signin .form-box {
+  width: 95%!important;
+  height: max-content!important;
+  background-color: #0000005c;
+  border-radius: 10px 10px 10px 10px;
+  padding: 1rem;
+  top: 30%;
+  right: 2%;
+  color: white;
+  font-weight: 500;
+  z-index: -1;
+}
+
+  .translate-middle {
+    transform: translate(0%,0%)!important;
+}
+
+}
